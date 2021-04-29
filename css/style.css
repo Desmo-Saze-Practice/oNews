@@ -1,0 +1,159 @@
+html {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-self: flex-end;
+}
+
+.left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../images/nicole.jpg);
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+
+.logo-home-link {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    max-width: 100%;
+    width: 2.5em;
+}
+
+.base-line {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.position__footer {
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav__items {
+    margin-right: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.latest-news {
+    align-self: center;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    text-align: right;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.heavy--title {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.news--title {
+    margin-bottom: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    align-self: flex-end;
+}
+
+h1 {
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+    color: black;
+    background-color: #eee;
+    width: 100%;
+    padding: 30px;
+}
+
+.news {
+    background-color: rgb(99, 197, 0);
+}
+
+.article-news {
+    /* display: block; */
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #eaeaea;
+}
+
+.tag {
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: .5em;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: .8em;
+    vertical-align: middle;
+    margin: 20px 0;
+}
+
+.avatar-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 2em;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.date {
+    color: rgb(185, 185, 185);
+}
+
+.article--title {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.paragraph--left {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.article-link {
+    text-decoration: underline;
+    color: #007bff;
+}
+
+a:hover {
+    color: tomato;
+}
